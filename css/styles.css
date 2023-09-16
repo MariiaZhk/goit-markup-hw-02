@@ -51,7 +51,7 @@ body {
   color: #404bbf;
 }
 
-#address {
+.contacts {
   font-style: normal;
 }
 
@@ -83,7 +83,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: var(--primary-bckg-color);
@@ -116,6 +116,10 @@ body {
   background-color: #f4f4fd;
 }
 
+.team-item {
+  background-color: var(--primary-bckg-color);
+}
+
 .ftr {
   background-color: var(--primary-headings-color);
 }
@@ -145,7 +149,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
   background-color: var(--button-bckg-color);
   color: var(--accent-color);
   cursor: pointer;
@@ -153,6 +157,7 @@ body {
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
+  color: var(--primary-bckg-color);
   background-color: #404bbf;
 }
 
